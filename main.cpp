@@ -15,13 +15,13 @@ int main() {
 	cout << "This is a program to sign into Supplemental Instruction.\n";
 
 	cout << "What is your FIRST name? ";
-    cin >> fname;
+    	cin >> fname;
 
 	cout << "What is your LAST name? ";
-    cin >> lname;
+    	cin >> lname;
 	
 	cout << "What day do you attend LAB? ";
-    cin >> labDay;
+    	cin >> labDay;
 
 	cout << "Thank you for signing in!\n";
 	file << fname + ' ' + lname + ' ' + labDay + '\n';
